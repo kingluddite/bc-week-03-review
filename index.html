@@ -8,61 +8,71 @@
   <title>My Website</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Widgets R Us</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+  <div class="row row-content">
+    <div class="col">
+      <h3>Community Partners</h3>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" role="tab" href="#bootstrap" data-toggle="tab">Bootstrap Outfitters</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" role="tab" href="#git" data-toggle="tab">Git Out Expeditions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" role="tab" href="#mongo" data-toggle="tab">Mongo Fly Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" role="tab" href="#node" data-toggle="tab">Node Outdoor Apparel</a>
         </li>
       </ul>
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade show active" id="bootstrap">
+          <h4>
+            Bootstrap Outfitters <small>Outdoor Gear Specialists</small>
+          </h4>
+          <p class="d-none d-sm-block">
+            Bootstrap Outfitters supplies you with the gear you need at
+            prices you can't beat.
+          </p>
+        </div>
+
+        <div role="tabpanel" class="tab-pane fade" id="git">
+          <h4>
+            Git Out Expeditions <small>Group Adventure Expeditions</small>
+          </h4>
+          <p class="d-none d-sm-block">
+            Join Git Out Expeditions to explore new horizons with a group of
+            other adventurers!
+          </p>
+        </div>
+
+        <div role="tabpanel" class="tab-pane fade" id="mongo">
+          <h4>
+            Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop</small>
+          </h4>
+          <p class="d-none d-sm-block">
+            Need a new fishing pole, a tacklebox, or flies of all kinds?
+            Stop by Mongo Fly Shop.
+          </p>
+        </div>
+
+        <div role="tabpanel" class="tab-pane fade" id="node">
+          <h4>
+            Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small>
+          </h4>
+          <p class="d-none d-sm-block">
+            From polar fleeces to swimsuits, hiking boots to waders, a visit
+            to Node will be sure to get you covered.
+          </p>
+        </div>
+      </div>
     </div>
-  </nav>
-
-  <ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Active</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#">Disabled</a>
-    </li>
-  </ul>
-
-  <ul class="nav nav-pills">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Active</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#">Disabled</a>
-    </li>
-  </ul>
+  </div>
+  </div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
