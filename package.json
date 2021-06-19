@@ -1,0 +1,23 @@
+{
+  "name": "bc-week-03-review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingluddite/bc-week-03-review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingluddite/bc-week-03-review/issues"
+  },
+  "homepage": "https://github.com/kingluddite/bc-week-03-review#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
